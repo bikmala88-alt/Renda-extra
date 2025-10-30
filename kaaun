@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O Caminho da Renda Extra | Kauan Alexandre</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+    body {
+      color: #fff;
+      overflow-x: hidden;
+      background: #000;
+      line-height: 1.8;
+    }
+
+    /* Fundo de estrelas animadas */
+    canvas#starfield {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: radial-gradient(ellipse at bottom, #0a1a2f 0%, #000 100%);
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* Efeito gradiente animado */
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header h1 {
+      font-size: 3.5em;
+      font-weight: bold;
+      background: linear-gradient(270deg, #00d9ff, #ff00ff, #00ff88, #00d9ff);
+      background-size: 600% 600%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientMove 6s ease infinite;
+      text-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+    }
+
+    header p {
+      font-size: 1.3em;
+      max-width: 800px;
+      margin: 10px auto 0;
+      color: #cfe8ff;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+      padding: 60px 30px;
+      max-width: 950px;
+      margin: 70px auto;
+      backdrop-filter: blur(8px);
+      transition: 0.4s;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 25px rgba(0, 217, 255, 0.4);
+    }
+
+    section h2 {
+      font-size: 2em;
+      text-align: center;
+      background: linear-gradient(270deg, #00d9ff, #ff00ff, #00ff88, #00d9ff);
+      background-size: 600% 600%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientMove 6s ease infinite;
+      text-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 1.1em;
+      text-align: justify;
+      color: #e8f1ff;
+    }
+
+    .cta {
+      text-align: center;
+      background: linear-gradient(135deg, #00b4d8, #0077b6);
+      color: white;
+      padding: 60px 25px;
+      border-radius: 20px;
+      margin-top: 60px;
+      box-shadow: 0 0 25px rgba(0, 183, 255, 0.6);
+    }
+
+    .cta a {
+      display: inline-block;
+      font-weight: bold;
+      padding: 15px 40px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: #000;
+      background: linear-gradient(270deg, #00d9ff, #ff00ff, #00ff88, #00d9ff);
+      background-size: 600% 600%;
+      animation: gradientMove 6s ease infinite;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .cta a:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
+    }
+
+    footer {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 40px 20px;
+      margin-top: 100px;
+      font-size: 0.95em;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    footer a {
+      color: #00d9ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+
+  <header>
+    <h1>O Caminho da Renda Extra</h1>
+    <p>Por Kauan Alexandre — descubra como mudar de vida e conquistar liberdade financeira!</p>
+  </header>
+
+  <section><h2>Capítulo 1 — O Que é Renda Extra?</h2><p>Renda extra é o dinheiro que você ganha além do seu salário principal. Pode vir de trabalhos temporários, vendas online, investimentos, marketing digital ou pequenos serviços. É uma forma inteligente de aumentar seus ganhos e conquistar mais liberdade financeira.</p></section>
+
+  <section><h2>Capítulo 2 — Por Que Buscar Renda Extra?</h2><p>Hoje, depender de uma única fonte de renda é arriscado. A renda extra serve como uma proteção contra imprevistos e também como um trampolim para realizar sonhos — seja comprar algo desejado, investir ou alcançar independência financeira.</p></section>
+
+  <section><h2>Capítulo 3 — A Importância da Mentalidade</h2><p>Antes de conquistar resultados, é preciso mudar sua forma de pensar. A renda extra começa na mente: acreditar que é possível, ser disciplinado e persistente. Quem acredita em si mesmo atrai oportunidades e aprende a aproveitar cada chance que aparece.</p></section>
+
+  <section><h2>Capítulo 4 — O Poder da Internet</h2><p>A internet é o maior campo de oportunidades já criado. Com um celular e conexão, você pode divulgar produtos, prestar serviços e gerar renda de várias formas. Milhares de pessoas estão lucrando todos os dias usando as redes sociais e o marketing digital.</p></section>
+
+  <section><h2>Capítulo 5 — O Primeiro Passo</h2><p>O primeiro passo é sempre o mais importante: agir. Escolha uma área, um produto ou serviço, e comece. No início, o resultado pode ser pequeno, mas a constância transforma esforço em sucesso. O segredo é não desistir antes de ver os frutos.</p></section>
+
+  <section><h2>Capítulo 6 — Como Transformar Tempo em Dinheiro</h2><p>Tempo é o recurso mais valioso que temos. Se você usar seu tempo livre para aprender e aplicar algo novo, pode transformar horas ociosas em lucro. Vender conhecimento, produtos ou serviços é a base da renda extra moderna.</p></section>
+
+  <section><h2>Capítulo 7 — O Papel do Clint</h2><p>O Clint é o guia que te mostra o caminho certo. Ele te ajuda a entender o que realmente funciona e o que é perda de tempo. Com o apoio certo, você evita erros comuns e acelera seus resultados, conquistando independência com estratégia e foco.</p></section>
+
+  <section><h2>Capítulo 8 — Superando Desafios</h2><p>Não existe sucesso sem dificuldade. Haverá dias ruins, dúvidas e fracassos, mas cada obstáculo é uma lição. Continue aprendendo, adaptando e acreditando. A persistência é o que separa quem desiste de quem vence.</p></section>
+
+  <section><h2>Capítulo 9 — Crescimento e Liberdade</h2><p>Com o tempo, a renda extra muda sua vida. Você ganha confiança, novas habilidades e a liberdade de escolher o que quer fazer. É uma transformação não só financeira, mas pessoal. Você passa a ser dono do seu próprio destino.</p></section>
+
+  <section><h2>Capítulo 10 — O Futuro é Seu</h2><p>O futuro pertence a quem age hoje. Cada passo dado na direção certa te aproxima da liberdade que você merece. A renda extra é o primeiro degrau — e com foco, você pode construir algo muito maior. Comece agora, e o seu “eu do futuro” vai te agradecer.</p></section>
+
+  <section class="cta">
+    <h2>🚀 Pronto para Começar Sua Jornada?</h2>
+    <p>Fale comigo e descubra como transformar seu tempo livre em renda real!</p>
+    <br />
+    <a href="https://wa.me/5511955807492" target="_blank">💬 Falar com Kauan no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Kauan Alexandre | Todos os direitos reservados</p>
+    <p>📸 <a href="https://instagram.com/rendae_extra8e" target="_blank">@rendae_extra8e</a></p>
+    <p>📞 WhatsApp: <a href="https://wa.me/5511955807492" target="_blank">11 95580-7492</a></p>
+  </footer>
+
+  <script>
+    const canvas = document.getElementById("starfield");
+    const ctx = canvas.getContext("2d");
+    let stars = [];
+    const numStars = 400;
+
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener("resize", resize);
+    resize();
+
+    for (let i = 0; i < numStars; i++) {
+      stars.push({
+        x: Math.random() * canvas.width - canvas.width / 2,
+        y: Math.random() * canvas.height - canvas.height / 2,
+        z: Math.random() * canvas.width,
+        o: "rgba(255, 255, 255, " + (0.3 + Math.random() * 0.7) + ")"
+      });
+    }
+
+    function animate() {
+      ctx.fillStyle = "rgba(0, 0, 0, 0.3)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < stars.length; i++) {
+        const s = stars[i];
+        s.z -= 0.25;
+        if (s.z <= 0) s.z = canvas.width;
+        const k = 128.0 / s.z;
+        const px = s.x * k + canvas.width / 2;
+        const py = s.y * k + canvas.height / 2;
+        if (px >= 0 && px <= canvas.width && py >= 0 && py <= canvas.height) {
+          const size = (1 - s.z / canvas.width) * 2;
+          ctx.beginPath();
+          ctx.arc(px, py, size, 0, 2 * Math.PI);
+          ctx.fillStyle = s.o;
+          ctx.fill();
+        }
+      }
+      requestAnimationFrame(animate);
+    }
+    animate();
+  </script>
+</body>
+</html>

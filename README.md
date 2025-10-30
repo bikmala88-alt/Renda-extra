@@ -1,1 +1,1 @@
-https://seunome.github.io/renda-extra
+https://seunome.renda-extra
